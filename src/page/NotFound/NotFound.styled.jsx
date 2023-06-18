@@ -9,5 +9,5 @@ const Title = styled.p`
 `;
 
 export default function NotFound() {
-  return <Title>NotFound</Title>;
+  return <Title>Not Found</Title>;
 }

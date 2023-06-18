@@ -36,7 +36,7 @@ export default function Home() {
 
   return (
     <section>
-      <h1>Trending today</h1>
+      <h1>Мovie of the week</h1>
       {status === STATUS.REJECTED && <ErrorMessage message={error} />}
       {status === STATUS.PENDING && <Loader />}
       {status === STATUS.RESOLVED && <MovieList movies={movies} />}
