@@ -4,8 +4,8 @@ import { NavLink } from 'react-router-dom';
 export const Button = styled(NavLink)`
   position: absolute;
 
-  top: 800px;
-  left: 50%;
+  top: 20px;
+  left: 20px;
   padding: 15px 15px;
   border-radius: 2px;
   background-color: #42362b;
